@@ -1,0 +1,29 @@
+name: Support request
+description: Ask for help or report a problem with Solitaire Chess for Mac.
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public tracker. Do not include passwords, Apple Account details, private keys, personal documents, or other private information."
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "For example: macOS 26"
+  - type: input
+    id: app_version
+    attributes:
+      label: Solitaire Chess version
+      placeholder: "For example: 1.0.0"
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include the steps to reproduce the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: fen
+    attributes:
+      label: Position (optional)
+      description: Paste a FEN position if it helps reproduce the issue. Leave out any private notes.
