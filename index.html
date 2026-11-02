@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Solitaire Chess — Support</title>
-  <meta name="description" content="Support for Solitaire Chess for Mac: play, compare Stockfish evaluations, and explore candidate moves offline.">
+  <meta name="description" content="Support for Solitaire Chess for Mac and Linux: play, compare Stockfish evaluations, and explore candidate moves offline.">
   <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -14,13 +14,14 @@
     <header><a class="brand" href="./"><img src="assets/icon.png" alt="" width="40" height="40">Solitaire Chess</a><nav aria-label="Main"><a href="#help" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav></header>
     <main id="main">
       <section class="intro">
-        <p class="eyebrow">SOLITAIRE CHESS FOR MAC</p>
+        <p class="eyebrow">SOLITAIRE CHESS FOR MAC AND LINUX</p>
         <h1>Think first.<br>Compare your move.</h1>
         <p class="lede">Play a game, see the position’s evaluation, and explore up to five Stockfish continuations. Everything runs on your Mac.</p>
         <a class="button" href="https://github.com/thepeteriley/solitaire-chess-support/issues/new/choose">Get help or report a problem <span aria-hidden="true">↗</span></a>
         <p class="small">A GitHub account is needed to post. Reports are public; please leave out private information.</p>
       </section>
       <figure><img class="screenshot" src="assets/solitaire-chess.png" width="1440" height="900" alt="Solitaire Chess showing the chessboard on the left and numerical position evaluation with five candidate continuations on the right."><figcaption>The play-and-evaluation version of Solitaire Chess.</figcaption></figure>
+      <section class="help"><h2>Linux edition</h2><p>The MIT-licensed Linux edition is available as a Debian package for Intel/AMD and ARM laptops. Install instructions, source and downloads are on <a href="https://github.com/thepeteriley/solitaire-chess-linux">GitHub</a>. Stockfish is installed through your distro’s package manager.</p></section>
       <section id="help" class="help">
         <p class="eyebrow">GETTING STARTED</p><h2>A little guidance.</h2>
         <div class="cards">
@@ -35,7 +36,7 @@
         <details><summary>The computer will not move</summary><p>Check that you selected Player vs computer and that it is the computer’s turn. Leave variation preview or history review to return to the live game. Also check whether the game has ended.</p></details>
         <details><summary>My move was different from the engine’s choice</summary><p>Engine lines are estimates from a limited search. They are helpful candidates, not a guarantee. The computer opponent’s Elo is approximate, and reducing its strength does not reduce the analysis engine’s strength.</p></details>
       </section>
-      <section class="contact"><div><h2>Need another hand?</h2><p>Tell us your macOS version, app version, what happened, and what you expected. Include a FEN position if it helps reproduce the problem.</p></div><a class="button" href="https://github.com/thepeteriley/solitaire-chess-support/issues/new/choose">Open a support request ↗</a></section>
+      <section class="contact"><div><h2>Need another hand?</h2><p>Tell us your operating system and version, app version, what happened, and what you expected. Include a FEN position if it helps reproduce the problem.</p></div><a class="button" href="https://github.com/thepeteriley/solitaire-chess-support/issues/new/choose">Open a support request ↗</a></section>
       <p class="small">Solitaire Chess is developed by Pete Riley. It uses Stockfish locally and is an independent product, unaffiliated with HIARCS. Stockfish’s licence and corresponding-source references are included with the app.</p>
     </main>
     <footer><span>© 2026 Pete Riley</span><a href="privacy.html">Privacy policy</a><a href="https://github.com/thepeteriley/solitaire-chess-support">Support repository</a></footer>
